@@ -6,8 +6,9 @@ end
 
 
 def summon_captain_planet(array)
-  return array
+  return array.map {|phrase| phrase.capitalize << '!'}
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
