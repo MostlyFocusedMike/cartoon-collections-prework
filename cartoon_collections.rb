@@ -5,13 +5,13 @@ def roll_call_dwarves(dwarves)
 end
 
 
-def summon_captain_planet(array)
-  return array.map {|phrase| phrase.capitalize << '!'}
+def summon_captain_planet(summons)
+  return summons.map {|phrase| phrase.capitalize << '!'}
 end
 
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls)
+  return calls.any? {|call| call.length > 4}
 end
 
 def find_the_cheese# code an argument here
